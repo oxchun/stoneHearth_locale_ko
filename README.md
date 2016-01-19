@@ -1,12 +1,16 @@
 # startermod_locale
-##Update:
+##업데이트:
 
 The overrides method allows any mod to provide a translation for any other mod.
 
-##About
-Example mod of adding a new language to stonehearth.
+## 주의사항
+ - 해당 모드는 한국에 맞게 언어를 재배치하였으며 해당 모드 설치 후 영어로 플레이 시 표기 오류가 생길 수 있습니다. ( 예) Kingdom of [마을이름] -> [마을이름] Kingdom of )
+ - manifest.json에서 폰트 로드 시 반드시 폰트를 먼저 오버라이드 한 후에 번역파일을 매치해주세요.
+ 
+##정보
+스톤하스 현지화 모드 예제를 사용한 한국어 현지화 모드입니다.
 
-Instructions for use: Download the mod. Unzip to your stonehearth mods directory, as a peer to stonehearth.smod and radiant.smod. Make sure the folder is named startermod_locale, not startermod_locale-master.
+소개 및 사용방법: 모드를 다운로드 하신 후 스톤하스 모드폴더(스팀: C:\Steam\steamapps\common\Stonehearth\mods)에 압축을 주신 후, as a peer to stonehearth.smod and radiant.smod. Make sure the folder is named startermod_locale, not startermod_locale-master.
 
 Inside the startermod_locale folder, you should see a manifest.json file, a added_languages.json file and a translations folder which has 2 folders in it representing the two mods that are shipped by radiant so far (stonehearth and rayyas children). Inside each of those folders will be 2 files named en-XA.json and en-DEV.json.
 
@@ -14,7 +18,7 @@ The startermod_locale mod adds a pseudolocalization of stonehearth's and rayya c
 
 When you start up Stonehearth with this mod installed, open the settings menu and go to the system tab. You will see that a language named "[!!Ēņģľĭšħ!!]" will be added to the list of languages. Selecting the "[!!Ēņģľĭšħ!!]" language and clicking "OK" will change the game's language.
 
-##How it works:
+##작동방식:
 
 1) startermod_locale's manifest.json uses this line:<br>
    ````
@@ -46,7 +50,7 @@ When you start up Stonehearth with this mod installed, open the settings menu an
    These overrides will effective act as if you added new files under stonehearth/locales/ and rayyas_children/locales/
    The files that are pointed to is the en-XA.json files under the translations folder. This is the file that contains all the translated strings.
 
-##Note:
+##노트:
 
 If you are creating your own content mod that has translatable strings (not a mod that is purely translation), to tell the game that your mod contains locale data, you need to specify a default locale in the mod's manifest.json, ex:
    ````

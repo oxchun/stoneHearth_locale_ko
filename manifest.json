@@ -1,15 +1,24 @@
 {
    "info" : {
-      "name" : "Example mod for adding languages.", 
-      "version" : 2
+      "name" : "Adding languages for Korean(한국어 추가 모드)", 
+      "version" : 1
    },
    "mixintos" : {
       "stonehearth/locales/supported_languages.json" : "file(added_languages.json)"
    },
    "overrides": {
-      "stonehearth/locales/en-XA.json": "file(translations/stonehearth/en-XA.json)",
-      "stonehearth/locales/en-DEV.json": "file(translations/stonehearth/en-DEV.json)",
-      "rayyas_children/locales/en-XA.json": "file(translations/rayyas_children/en-XA.json)",
-      "rayyas_children/locales/en-DEV.json": "file(translations/rayyas_children/en-DEV.json)"
+	  "stonehearth/ui/shell/title/title.html": "file(ui/shell/title/title.html)",
+	  "stonehearth/ui/shell/select_game_story/select_game_story.html": "file(ui/shell/select_game_story/select_game_story.html)",
+	  "stonehearth/ui/game/promotion_tree/promotion_tree.html": "file(ui/game/promotion_tree/promotion_tree.html)",
+	  
+	  "stonehearth/ui/shell/title/title.less": "file(ui/shell/title/title.less)",
+	  "stonehearth/ui/game/character_sheets/citizen_character_sheet/citizen_character_sheet.less": "file(ui/game/character_sheets/citizen_character_sheet/citizen_character_sheet.less)",
+	  
+	  "stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.ttf" : "file(fonts/YanoljaYacheB.ttf)",
+   	  "stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.woff" : "file(fonts/YanoljaYacheB.woff)",
+   	  "stonehearth/ui/root/css/fonts/grobold/grobold-webfont.ttf" : "file(fonts/YanoljaYacheB.ttf)",
+   	  "stonehearth/ui/root/css/fonts/grobold/grobold-webfont.woff" : "file(fonts/YanoljaYacheB.woff)",
+      "stonehearth/locales/ko.json": "file(translations/stonehearth/ko.json)",
+	  "rayyas_children/locales/ko.json": "file(translations/rayyas_children/ko.json)"
    }
 }
