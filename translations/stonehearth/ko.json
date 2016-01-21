@@ -403,7 +403,7 @@
                      "display_name": "파티",
                      "description": "Organize your troops into groups"
                   },
-                  "town_alert": {
+                  "town_defense": {
                      "display_name": "마을 경계 모드!",
                      "description": "Rally your 허스링 to prepare for intruders!",
                      "activated_title": "Town Alert Mode Activated!",
@@ -483,8 +483,10 @@
             "shop": {
                "buy_1": "1개 구매",
                "buy_10": "10개 구매",
+               "buy_all": "모두 구매",
                "sell_1": "1개 판매",
                "sell_10": "10개 판매",
+               "sell_all": "모두 판매",
                "buy_tab": "구매",
                "sell_tab": "판매",
                "not_enough_gold_tooltip": "황금이 부족합니다."
