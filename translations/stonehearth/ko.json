@@ -182,14 +182,14 @@
             "create_party": "파티 생성",
             "edit_party": "편집",
             "add_party_member": "파티원 추가",
-            "remove_members": "모든 파티원 탈퇴",
+            "disband_party": "해체",
             "add_party_member_title": "명단 관리",
             "done_adding_members": "완료",
             "add_party_member_button": "추가",
             "remove_party_member_button": "삭제",
             "not_in_party": "파티에 소속되어 있지 않습니다",
             "party_help": "Party members will travel together and can be directed on the battlefield.",
-            "party_editor_help": "Use this screen to add and remove 허스링 to the party.",
+            "party_editor_help": "Use this screen to add and remove hearthlings to the party.",
             "attack_banner_button": "Attack Order",
             "attack_banner_button_help": "Tell the party to assault a location",
             "defend_banner_button": "Rally & Defend Order",
@@ -1051,26 +1051,26 @@
          "tooltips": {
             "stamina": {
                "display_name": "스태미나",
-               "description": "This 허스링들 physical endurance.",
+               "description": "How long this hearthling can work before needing rest.",
                "bullet_points": {
-                  "000": "Each point increases max health by 2"
+                  "000": "Determines sleep duration"
                }
             },
             "inventiveness": {
                "display_name": "Inventiveness",
-               "description": "How good this 허스링 is at creating things. Good inventors are more likely to create fine craftables.",
+               "description": "How good this hearthling is at creating things. Good inventors are more likely to create fine craftables.",
                "bullet_points": {
                   "000": "Improves chance to craft fine items"
                }
             },
             "shelter": {
                "display_name": "Shelter",
-               "description": "Make sure your 허스링 have a comfortable bed to sleep in.",
+               "description": "Make sure your hearthlings have a comfortable bed to sleep in.",
                "town_description": "How your citizens feel about their lodging situation. Are there beds to sleep in?"
             },
             "compassion": {
                "display_name": "Compassion",
-               "description": "How likely this 허스링 will help out a fellow villager or befriend others.",
+               "description": "How likely this hearthling will help out a fellow villager or befriend others.",
                "bullet_points": {
                   "000": "Determines maxiumum trapper pet count",
                   "001": "Increases shepherd animal happiness"
@@ -1083,14 +1083,14 @@
             },
             "diligence": {
                "display_name": "Diligence",
-               "description": "How long this 허스링 can work before needing rest.",
+               "description": "This hearthling's concentration. Diligent workers complete long tasks without getting distracted.",
                "bullet_points": {
-                  "000": "Determines sleep duration"
+                  "000": "Increases crafting speed"
                }
             },
             "willpower": {
                "display_name": "Willpower",
-               "description": "How likely this 허스링 is to resist enemy charms.",
+               "description": "How likely this hearthling is to resist enemy charms."
             },
             "net_worth": {
                "display_name": "Net Worth",
@@ -1099,30 +1099,30 @@
             },
             "courage": {
                "display_name": "Courage",
-               "description": "How brave this 허스링 is in the face of combat.",
+               "description": "How brave this hearthling is in the face of combat.",
                "bullet_points": {
                   "000": "Determines chance to flee in combat"
                }
             },
             "muscle": {
                "display_name": "Muscle",
-               "description": "This 허스링들 brawn.",
+               "description": "This hearthling's brawn.",
                "bullet_points": {
                   "000": "Every 10 muscle increases weapon damage by 1"
                }
             },
             "happiness": {
                "display_name": "Overall Moral",
-               "description": "This 허스링들 overall happiness based on food, shelter, and safety.",
+               "description": "This hearthling's overall happiness based on food, shelter, and safety.",
                "town_description": "How happy your citizens are overall. Aim for a value of 10 for ultimate happiness!"
             },
             "speed": {
                "display_name": "Speed",
-               "description": "How fast this 허스링 moves."
+               "description": "How fast this hearthling moves."
             },
             "body": {
                "display_name": "Body",
-               "description": "Competence at physical activities. 허스링 with a high Body stat will move faster, attack harder, and live longer. Influences Muscle, Speed, Stamina."
+               "description": "Competence at physical activities. Hearthlings with a high Body stat will move faster. Influences Muscle, Speed, Stamina."
             },
             "edibles": {
                "display_name": "Edibles",
@@ -1131,18 +1131,18 @@
             },
             "mind": {
                "display_name": "Mind",
-               "description": "The ability to think intelligently. A high Mind stat allows a 허스링 to exceed in complex mental tasks. Influences Diligence, Curiosity, Inventiveness."
+               "description": "The ability to think intelligently. A high Mind stat allows a hearthling to exceed in complex mental tasks. Influences Diligence, Curiosity, Inventiveness."
             },
             "curiosity": {
                "display_name": "Curiosity",
-               "description": "How much this 허스링 enjoys new experiences.",
+               "description": "How much this hearthling enjoys new experiences.",
                "bullet_points": {
                   "000": "Improves experience gain when crafting new items"
                }
             },
             "spirit": {
                "display_name": "Spirit",
-               "description": "Faith in other people. A high Spirit 허스링 will easily befriend others and stand strong against enemies. Influences Courage, Willpower, Compassion."
+               "description": "Faith in other people. A high Spirit hearthling will easily befriend others and stand strong against enemies. Influences Courage, Willpower, Compassion."
             },
             "safety": {
                "display_name": "Safety",
@@ -1161,7 +1161,7 @@
             "thread_resource_name": "Thread",
             "leather_resource_name": "Bolt of Leather",
             "fiber_resource_name": "Bundle of Fiber",
-            "ingot_resource_name": "주괴",
+            "ingot_resource_name": "주괴"
          }
       }
    },
@@ -5121,7 +5121,7 @@
       },
       "blacksmith": {
          "blacksmith_description": {
-            "display_name": "Blacksmith",
+            "display_name": "대장장이",
             "description": "The Blacksmith refines raw ore into metal bars, then uses those bars to craft weapons, armor, and building parts like gates.",
             "requirements": "Blacksmith's Hammer, crafted by the Mason",
             "level_6_data": {
@@ -5304,7 +5304,7 @@
       },
       "carpenter": {
          "carpenter_description": {
-            "display_name": "Carpenter",
+            "display_name": "목수",
             "description": "The carpenter crafts tools and furniture from wood. The tools he makes unlocks several other jobs.",
             "requirements": "Carpenter's saw, crafted by the Blacksmith.",
             "level_6_data": {
@@ -5564,7 +5564,7 @@
       },
       "cook": {
          "cook_description": {
-            "display_name": "Cook",
+            "display_name": "요리사",
             "description": "The cook makes delicious, hearty meals from base vegetables and meats.",
             "requirements": "A level 2 Farmer and a Stoneware Spoon, crafted by the Mason.",
             "workshop": {
@@ -5716,7 +5716,7 @@
       },
       "farmer": {
          "farmer_description": {
-            "display_name": "Farmer",
+            "display_name": "농부",
             "description": "Farmers till fields and harvest crops, providing a consistent food supply and raw materials for baked goods.",
             "requirements": "Farmer's Hoe, crafted by the Carpenter.",
             "level_6_data": {
@@ -5758,13 +5758,13 @@
             "description": "Standard dress for all farmers"
          },
          "field": {
-            "display_name": "Farm plot",
+            "display_name": "농장 터",
             "description": "For growing crops"
          }
       },
       "footman": {
          "footman_description": {
-            "display_name": "Footman",
+            "display_name": "전사",
             "description": "The Footman is a melee fighter. A good choice for the backbone of your town's defense.",
             "requirements": "Wooden Practice Sword, crafted by the Carpenter.",
             "level_4_data": {
@@ -5811,7 +5811,7 @@
       },
       "mason": {
          "mason_description": {
-            "display_name": "Mason",
+            "display_name": "석공",
             "description": "The Mason crafts building materials and decorative items from stone.",
             "requirements": "A Chisel, crafted by the Carpenter.",
             "workshop": {
@@ -6185,7 +6185,7 @@
       },
       "shepherd": {
          "shepherd_description": {
-            "display_name": "Shepherd",
+            "display_name": "양치기",
             "description": "Domesticates wild animals and harvests them for food and materials.",
             "requirements": "A level 2 Trapper and a Shepherd's Crook, crafted by the Carpenter.",
             "level_4_data": {
@@ -6231,7 +6231,7 @@
       },
       "trapper": {
          "trapper_description": {
-            "display_name": "Trapper",
+            "display_name": "사냥꾼",
             "description": "The Trapper's snares capture and (ahem) &quot;harvest&quot; small critters for a reliable source of food and supplies.",
             "requirements": "Trapper's Knife, forged by the Blacksmith",
             "level_1_data": {
@@ -6244,7 +6244,7 @@
                "perk_000_description": "Long practice helps the trapper salvage more from each animal."
             },
             "level_2_data": {
-               "perk_000_name": "Charm Pet",
+               "perk_000_name": "펫 길들이기",
                "perk_001_name": "Job Opportunities",
                "perk_000_description": "The trapper will occasionally choose to turn a particulary fine animal into a pet!",
                "perk_001_description": "The trapper now qualifies for advanced jobs. Click the promote command for details."
@@ -6258,20 +6258,20 @@
                "perk_000_description": "Traps now lure in and hold larger prey."
             },
             "level_4_data": {
-               "perk_000_name": "Backpack Size +8",
+               "perk_000_name": "가방 크기 +8",
                "perk_000_description": "The trapper has become more efficient at packing in the loot."
             }
          },
          "snare_trap": {
-            "display_name": "Snare Trap",
+            "display_name": "덫",
             "description": "Safely immobilizes its prey",
             "commands": {
                "harvest_trapped_beast": {
-                  "display_name": "Harvest Beast",
+                  "display_name": "도축",
                   "description": "Slay the trapped beast and harvest him for materials!"
                },
                "tame_trapped_beast": {
-                  "display_name": "Tame Beast",
+                  "display_name": "길들이기",
                   "description": "Make friends! Befriend the trapped beast and make it your pet."
                }
             }
@@ -6282,22 +6282,22 @@
             }
          },
          "trapper_knife": {
-            "display_name": "Trapper's Knife",
-            "description": "A trapper's knife",
+            "display_name": "사냥꾼의 단검",
+            "description": "사냥꾼의 단검입니다.",
             "trapper_knife_iconic": {
-               "display_name": "Trapper's Knife",
-               "description": "Basic trapper's knife."
+               "display_name": "사냥꾼의 단검",
+               "description": "사냥꾼들이 사용하는 단검"
             },
             "trapper_knife_talisman": {
-               "display_name": "Trapper's Knife",
+               "display_name": "사냥꾼의 단검",
                "description": "Required to promote a 허스링 into a Trapper."
             }
          },
          "trapper_outfit": {
-            "display_name": "Trapper Oufit"
+            "display_name": "사냥꾼 유니폼"
          },
          "trapping_grounds": {
-            "display_name": "Trapping Grounds",
+            "display_name": "사냥꾼 범위",
             "description": "Trappers catch critters for food and resources in this zone."
          }
       },
@@ -6316,11 +6316,11 @@
       },
       "weaver": {
          "weaver_description": {
-            "display_name": "Weaver",
+            "display_name": "방직공",
             "description": "The Weaver makes thread, fabrics and hangings from fiber and dye.",
             "requirements": "Weaver's Spindle, crafted by the Carpenter.",
             "level_6_data": {
-               "title": "Master Weaver",
+               "title": "장인 방직공",
                "perk_000_name": "10,000 Hours (not implemented)",
                "perk_000_description": "The weaver's mastery of his trade allows him to come up with completely new ways of using wood."
             },
@@ -6329,15 +6329,15 @@
                "perk_000_description": "The weaver is now skillful enough to use materials created by other crafters."
             },
             "level_4_data": {
-               "perk_000_name": "Ingenuity Enhancements (not implemented)",
+               "perk_000_name": "독창성 향상",
                "perk_000_description": "The weaver adds new levels of functionality to classic recipes."
             },
             "level_1_data": {
-               "perk_000_name": "Standard Catalog",
+               "perk_000_name": "기본 카탈로그",
                "perk_000_description": "The weaver can now make basic hangings and decor."
             },
             "level_3_data": {
-               "perk_000_name": "Artistic Inspiration",
+               "perk_000_name": "예술적 영감",
                "perk_000_description": "When inspiration strikes, the weaver may embellish his works in unexpected ways."
             }
          },
@@ -6450,45 +6450,45 @@
             }
          },
          "weaver_outfit": {
-            "display_name": "Weaver Outfit",
+            "display_name": "방직공 유니폼",
             "description": "Uniform for all weavers"
          },
          "weaver_spindle": {
-            "display_name": "The Spindle",
+            "display_name": "스핀들",
             "description": "For spinning fiber into thread",
             "weaver_spindle_iconic": {
                "display_name": "The Spindle",
                "description": "For spinning fiber into thread"
             },
             "weaver_spindle_talisman": {
-               "display_name": "The Spindle",
+               "display_name": "스핀들",
                "description": "For spinning fiber into thread"
             }
          },
          "weaver_spinning_wheel": {
             "weaver_spinning_wheel_ghost": {
-               "display_name": "Spinning Wheel",
+               "display_name": "물레",
                "description": "A skilled Weaver uses this to spin fiber into thread."
             }
          },
          "weaver_workbench": {
             "weaver_workbench_ghost": {
-               "display_name": "Weaver Workbench",
+               "display_name": "방직공의 작업소",
                "description": "Used by the Weaver for crafting."
             }
          }
       },
       "worker": {
          "worker_description": {
-            "display_name": "Worker",
+            "display_name": "일꾼",
             "description": "Workers perform basic tasks like harvesting resources, hauling stuff around, and constructing buildings.",
             "requirements": "None, just hard work and guts.",
             "level_0_data": {
-               "title": "Worker"
+               "title": "일꾼"
             }
          },
          "winter_worker_outfit": {
-            "display_name": "Winter Worker Outfit",
+            "display_name": "일꾼 유니폼 동복",
             "description": "A heavy wool coat, for cold winter nights",
             "winter_worker_outfit_iconic": {
                "display_name": "Winter Worker Outfit",
@@ -6496,11 +6496,11 @@
             }
          },
          "worker_outfit": {
-            "display_name": "Worker Outfit",
+            "display_name": "일꾼 유니폼",
             "description": "Uniform for all workers"
          },
          "worker_outfit_2": {
-            "display_name": "Upgraded Worker Outfit",
+            "display_name": "향상된 일꾼 유니폼",
             "description": "Reinforced construction improves worker efficiency!",
             "worker_outfit_2_iconic": {
                "display_name": "Upgraded Worker Outfit",
@@ -6525,15 +6525,15 @@
          "food_decay": {
             "food_decay": {
                "decay_1": {
-                  "description": "Starting to Rot. Better eat it fast."
+                  "description": "썩기 시작했습니다. 빨리 먹어버리세요."
                },
                "decay_2": {
-                  "description": "Rotten. Ew."
+                  "description": "썩음."
                }
             }
          },
          "jerky": {
-            "display_name": "Jerky",
+            "display_name": "육포",
             "description": "Stringy, but nutritious!"
          }
       },
