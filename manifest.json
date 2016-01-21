@@ -1,7 +1,7 @@
 {
    "info" : {
       "name" : "Adding languages for Korean(한국어 추가 모드)", 
-      "version" : 1
+      "version" : 130101
    },
    "mixintos" : {
       "stonehearth/locales/supported_languages.json" : "file(added_languages.json)"
