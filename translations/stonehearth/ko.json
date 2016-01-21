@@ -197,7 +197,7 @@
             "default_name": "[str(party.ord)]번째 파티"
          },
          "unit_frame": {
-            "show_character_sheet": "인물정보 보기",
+            "show_character_sheet": "Show character sheet",
             "focus_camera": "Focus camera on this unit"
          },
          "citizens": {
@@ -214,7 +214,7 @@
             },
             "show_character_sheet": "자세한 정보",
             "button_suspend": "유예",
-            "button_resume": "복귀",
+            "button_resume": "복귀"
          },
          "create_camp": {
             "new_game_place_banner": "이것을 클릭하세요",
@@ -535,21 +535,21 @@
                "wall_segment_tip_description": "Hold down SHIFT while clicking to draw connected walls",
                "build_title_building_designer": "Building Designer",
                "build_floor_tip_title": "Click and drag to place floor tiles",
-               "build_floor_tip_description": "우클릭으로 종료할 수 있습니다",
+               "build_floor_tip_description": "Right click to exit",
                "build_slab_tip_title": "Click and drag to build a slab",
-               "build_slab_tip_description": "우클릭으로 종료할 수 있습니다",
+               "build_slab_tip_description": "Right click to exit",
                "erase_structure_tip_title": "Click to erase items. Click and drag to erase floor",
-               "erase_structure_tip_description": "우클릭으로 종료할 수 있습니다",
+               "erase_structure_tip_description": "Right click to exit",
                "roof_tip_title": "Click a walled floorplan to place the roof",
-               "roof_tip_description": "우클릭으로 종료할 수 있습니다",
+               "roof_tip_description": "Right click to exit",
                "raise_walls_tip_title": "Click a floorplan to add walls",
-               "raise_walls_tip_description": "우클릭으로 종료할 수 있습니다",
+               "raise_walls_tip_description": "Right click to exit",
                "doodad_tip_title": "Click a wall to place the door or window",
-               "doodad_tip_description": "우클릭으로 종료할 수 있습니다",
+               "doodad_tip_description": "Right click to exit",
                "draw_template_title": "Click to build template",
                "draw_template_description": "Rotate with , and . keys",
                "build_road_tip_title": "Click and drag to build road",
-               "build_road_tip_description": "우클릭으로 종료할 수 있습니다"
+               "build_road_tip_description": "Right click to exit"
             },
             "building_cost": {
                "required_item": "Required Item",
@@ -591,53 +591,53 @@
                "set_template_name_prompt": "Enter a name for this template"
             },
             "place_item": {
-               "title": "아이템 설치"
+               "title": "Place an Item"
             },
             "materials": {
                "wall": {
-                  "material": "벽을 만들 재료",
-                  "wood_resource": "나무",
-                  "stone_resource": "돌",
-                  "clay_resource": "점토",
-                  "clay_brick_resource": "벽돌"
+                  "material": "Wall Material",
+                  "wood_resource": "Wooden Wall",
+                  "stone_resource": "Stone Wall",
+                  "clay_resource": "Clay Wall",
+                  "clay_brick_resource": "Clay Brick Wall"
                },
                "floor": {
-                  "material": "층을 만들 재료",
-                  "wood_resource": "나무",
-                  "stone_resource": "돌",
-                  "clay_resource": "점토",
-                  "clay_brick_resource": "벽돌"
+                  "material": "Floor Material",
+                  "wood_resource": "Wooden Floor",
+                  "stone_resource": "Stone Floor",
+                  "clay_resource": "Clay Floor",
+                  "clay_brick_resource": "Clay Brick Floor"
                },
                "roof": {
                   "material": "Roof Material",
-                  "wood_resource": "나무 Roof",
+                  "wood_resource": "Wooden Roof",
                   "stone_resource": "Stone Roof",
                   "clay_resource": "Clay Roof",
                   "clay_brick_resource": "Clay Brick Roof"
                },
                "column": {
                   "material": "Column Material",
-                  "wood_resource": "나무 Column",
+                  "wood_resource": "Wooden Column",
                   "stone_resource": "Stone Column",
                   "clay_resource": "Clay Column",
                   "clay_brick_resource": "Clay Brick Column"
                },
                "road": {
                   "material": "Road Material",
-                  "wood_resource": "나무 Road",
+                  "wood_resource": "Wooden Road",
                   "stone_resource": "Stone Road",
                   "clay_resource": "Clay Road",
                   "clay_brick_resource": "Clay Brick Road"
                },
                "doors": {
                   "material": "Door Material",
-                  "wood_resource": "나무 Door",
+                  "wood_resource": "Wooden Door",
                   "stone_resource": "Stone Door",
                   "clay_resource": "Clay Door"
                },
                "windows": {
                   "material": "Window Material",
-                  "wood_resource": "나무 Window",
+                  "wood_resource": "Wooden Window",
                   "stone_resource": "Stone Window",
                   "clay_resource": "Clay Window"
                }
@@ -722,7 +722,7 @@
                   "tooltip_gem": "보석과 트로피",
                   "tooltip_food_containers": "음식",
                   "tooltip_prepared_food": "조리된 음식",
-                  "tooltip_ingredients": "조리되지 않은 음식",
+                  "tooltip_ingredients": "조리되지 않은 음식"
                }
             }
          },
