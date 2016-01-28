@@ -1,4 +1,4 @@
-{
+﻿{
    "ai": {
       "actions": {
          "status_text": {
@@ -16,8 +16,8 @@
             "claiming_animal": "claiming animal",
             "looking_for_animals": "looking for animals",
             "collect_ingredient": "collecting ingredients",
-            "build_workshop": "building workshop",
-            "death": "dying",
+            "build_workshop": "워크벤치 건설",
+            "death": "사망",
             "eat": "getting food",
             "find_stray_animal": "finding strays",
             "harvest_field": "harvesting field",
@@ -87,12 +87,12 @@
             "requires": "필요 조건"
          },
          "build_workshop": {
-            "title": "Build Workshop",
-            "requirements": "Requirements",
-            "create_stockpile": "Crafter's Stockpile",
-            "create_stockpile_description": "The crafter will store crafted goods in this stockpile.<p>You probably want to place it near the workbench, but hey, it's your decision.",
-            "page1_subtitle2": "Click on the ground to place the workshop",
-            "page2_subtitle2": "Click and drag on the ground to place the stockpile"
+            "title": "초기 워크벤치",
+            "requirements": "필요조건",
+            "create_stockpile": "저장소 놓기",
+            "create_stockpile_description": "The crafter will store crafted goods in this stockpile.<p>너는 아마 너가 그것을 워크벤치 근처에 놓기를 원할거야, 그러나 그것은너의 결정이야",
+            "page1_subtitle2": "땅을 클릭해 워크벤치를 놓으세요",
+            "page2_subtitle2": "땅을 클릭 후 드래그해 비축고를 지정하세요"
          },
          "citizen_character_sheet": {
             "title": "캐릭터 정보",
@@ -131,7 +131,7 @@
          },
          "tutorials": {
             "camera": {
-               "camera_pan_title": "To move the camera",
+               "camera_pan_title": "카메라 이동",
                "camera_pan_1": "Hold down the space bar, then move the mouse",
                "camera_pan_2": "Or use the WASD keys",
                "camera_pan_3": "Or press the mouse wheel and move the mouse",
@@ -188,7 +188,7 @@
             "add_party_member_button": "추가",
             "remove_party_member_button": "삭제",
             "not_in_party": "파티에 소속되어 있지 않습니다",
-            "party_help": "Party members will travel together and can be directed on the battlefield.",
+            "party_help": "파티멤버는 다 같이 탐험하고 곧바로 전장에 설 수 있습니다.",
             "party_editor_help": "Use this screen to add and remove hearthlings to the party.",
             "attack_banner_button": "Attack Order",
             "attack_banner_button_help": "Tell the party to assault a location",
@@ -329,10 +329,10 @@
                      "description": "월드에서 해당 아이템을 파괴합니다.",
                      "tip_title": "지우고 싶은 아이템을 클릭이나 드래그를 하세요",
                      "tip_description": "우클릭으로 종료할 수 있습니다",
-                     "confirm_title": "Are you really sure you want to clear these items?",
+                     "confirm_title": "정말 이 아이템들을 없애길 원하나요?",
                      "confirm_message": "Usable items in the area will be permanently destroyed",
-                     "confirm_clear": "Yes, destroy!",
-                     "confirm_clear_no": "No! I need that stuff!"
+                     "confirm_clear": "네, 없앨겁니다!",
+                     "confirm_clear_no": "아니요! 난 이것들이 필요해요!"
                   }
                }
             },
@@ -401,7 +401,7 @@
                "items": {
                   "party_manager": {
                      "display_name": "파티",
-                     "description": "Organize your troops into groups"
+                     "description": "당신의 병력을 한 조직으로 구성합니다."
                   },
                   "town_defense": {
                      "display_name": "마을 경계 모드!",
@@ -411,8 +411,8 @@
                   },
                   "loot_item": {
                      "display_name": "전리품 획득",
-                     "description": "Steal items from another player.",
-                     "tip_title": "Click and drag to loot items from the world",
+                     "description": "다른 플레이어의 아이템을 훔칠수 있습니다..",
+                     "tip_title": "클릭 후 드래그로 아이템을 줏을 곳을 지정합니다.",
                      "tip_description": "우클릭으로 종료할 수 있습니다"
                   }
                }
@@ -459,10 +459,10 @@
             },
             "tasks_manager": {
                "display_name": "Manage Tasks",
-               "description": "Do task stuff.",
-               "remove_stockpile": "Remove Stockpile",
-               "pause_stockpile": "Pause",
-               "resume_stockpile": "Resume",
+               "description": "이것들을 맡깁니다.",
+               "remove_stockpile": "비축고를 제거합니다.",
+               "pause_stockpile": "중지",
+               "resume_stockpile": "계속",
                "group": {
                   "stockpiles": "비축고",
                   "building": "건설",
@@ -505,71 +505,71 @@
                "next_requirements_label": "허스닝 이주 조건"
             },
             "collection_quest": {
-               "pay": "Here you go!",
-               "cancel": "I've changed my mind"
+               "pay": "여기있어!",
+               "cancel": "좀 더 생각해 볼게"
             }
          },
          "build_mode": {
             "tooltips": {
-               "building_tools": "Building Tools",
+               "building_tools": "건설 툴",
                "voxel_tools": "Voxel Tools",
                "voxel_add": "Add Voxel",
                "voxel_paint": "Paint Voxel",
                "voxel_remove": "Remove Voxel",
-               "selection": "Selection",
-               "delete": "Delete",
-               "undo": "Undo",
-               "draw_slab_tool": "Slabs",
-               "draw_floor_tool": "Foundations",
-               "grow_floor_tool": "Floors",
-               "grow_roof_tool": "Roofs",
-               "draw_door_tool": "Doors",
-               "draw_window_tool": "Windows",
-               "grow_wall_tool": "Walls",
-               "draw_wall_tool": "Free Standing Walls",
-               "draw_road_tool": "Roads",
-               "place_furniture_tool": "Furniture",
-               "place_decoration_tool": "Decorations",
-               "erase_tool": "Erase"
+               "selection": "선택",
+               "delete": "삭제",
+               "undo": "뒤로가기",
+               "draw_slab_tool": "기본 바닥",
+               "draw_floor_tool": "1층 바닥",
+               "grow_floor_tool": "층 설정",
+               "grow_roof_tool": "지붕",
+               "draw_door_tool": "문",
+               "draw_window_tool": "창문",
+               "grow_wall_tool": "벽",
+               "draw_wall_tool": "자유롭게 세우는 벽",
+               "draw_road_tool": "길",
+               "place_furniture_tool": "가구",
+               "place_decoration_tool": "장식품",
+               "erase_tool": "지우기"
             },
             "overhead_tips": {
                "wall_segment_tip_title": "Click to place freestanding wall segments",
                "wall_segment_tip_description": "Hold down SHIFT while clicking to draw connected walls",
                "build_title_building_designer": "Building Designer",
                "build_floor_tip_title": "Click and drag to place floor tiles",
-               "build_floor_tip_description": "Right click to exit",
+               "build_floor_tip_description": "오른쪽 클릭으로 취소합니다",
                "build_slab_tip_title": "Click and drag to build a slab",
-               "build_slab_tip_description": "Right click to exit",
+               "build_slab_tip_description": "오른쪽 클릭으로 취소합니다",
                "erase_structure_tip_title": "Click to erase items. Click and drag to erase floor",
-               "erase_structure_tip_description": "Right click to exit",
+               "erase_structure_tip_description": "오른쪽 클릭으로 취소합니다",
                "roof_tip_title": "Click a walled floorplan to place the roof",
-               "roof_tip_description": "Right click to exit",
+               "roof_tip_description": "오른쪽 클릭으로 취소합니다",
                "raise_walls_tip_title": "Click a floorplan to add walls",
-               "raise_walls_tip_description": "Right click to exit",
+               "raise_walls_tip_description": "오른쪽 클릭으로 취소합니다",
                "doodad_tip_title": "Click a wall to place the door or window",
-               "doodad_tip_description": "Right click to exit",
+               "doodad_tip_description": "오른쪽 클릭으로 취소합니다",
                "draw_template_title": "Click to build template",
                "draw_template_description": "Rotate with , and . keys",
                "build_road_tip_title": "Click and drag to build road",
-               "build_road_tip_description": "Right click to exit"
+               "build_road_tip_description": "오른쪽 클릭으로 취소합니다"
             },
             "building_cost": {
-               "required_item": "Required Item",
+               "required_item": "필요한 아이템",
                "count": "Num"
             },
             "overview": {
                "title": "Building Designer - [str(building_name)]",
-               "building_name": "Building Name",
-               "building_cost": "Building Cost",
-               "start_building": "Build!",
-               "pause_building": "Pause building",
-               "save_building_template": "Save",
-               "finished_editing": "Finished Editing",
-               "start_editing": "Edit"
+               "building_name": "건축물 이름",
+               "building_cost": "건축 비용",
+               "start_building": "건축!",
+               "pause_building": "건축 중지",
+               "save_building_template": "저장",
+               "finished_editing": "편집 완료",
+               "start_editing": "편집"
             },
             "roof_shape": {
                "title": "Slope, Direction, & Size",
-               "max_height": "Max Height",
+               "max_height": "최대 높이",
                "rise_slope": "Rise Slope",
                "y_offset": "Roof Offset",
                "show_gradient": "Slope",
@@ -597,69 +597,69 @@
             },
             "materials": {
                "wall": {
-                  "material": "Wall Material",
-                  "wood_resource": "Wooden Wall",
-                  "stone_resource": "Stone Wall",
-                  "clay_resource": "Clay Wall",
-                  "clay_brick_resource": "Clay Brick Wall"
+                  "material": "벽 재료",
+                  "wood_resource": "나무 벽",
+                  "stone_resource": "돌 벽",
+                  "clay_resource": "점토 벽",
+                  "clay_brick_resource": "벽돌 벽"
                },
                "floor": {
-                  "material": "Floor Material",
-                  "wood_resource": "Wooden Floor",
-                  "stone_resource": "Stone Floor",
-                  "clay_resource": "Clay Floor",
-                  "clay_brick_resource": "Clay Brick Floor"
+                  "material": "바닥 재료",
+                  "wood_resource": "나무 바닥",
+                  "stone_resource": "돌 바닥",
+                  "clay_resource": "점토 바닥",
+                  "clay_brick_resource": "벽돌 바닥"
                },
                "roof": {
-                  "material": "Roof Material",
-                  "wood_resource": "Wooden Roof",
-                  "stone_resource": "Stone Roof",
-                  "clay_resource": "Clay Roof",
-                  "clay_brick_resource": "Clay Brick Roof"
+                  "material": "지붕 재료",
+                  "wood_resource": "나무 지붕",
+                  "stone_resource": "돌 지붕",
+                  "clay_resource": "점토 지붕",
+                  "clay_brick_resource": "벽돌 지붕"
                },
                "column": {
-                  "material": "Column Material",
-                  "wood_resource": "Wooden Column",
-                  "stone_resource": "Stone Column",
-                  "clay_resource": "Clay Column",
-                  "clay_brick_resource": "Clay Brick Column"
+                  "material": "기둥 재료",
+                  "wood_resource": "나무 기둥",
+                  "stone_resource": "돌 기둥",
+                  "clay_resource": "점토 기둥",
+                  "clay_brick_resource": "벽돌 기둥"
                },
                "road": {
-                  "material": "Road Material",
-                  "wood_resource": "Wooden Road",
-                  "stone_resource": "Stone Road",
-                  "clay_resource": "Clay Road",
-                  "clay_brick_resource": "Clay Brick Road"
+                  "material": "길 재료",
+                  "wood_resource": "나무 길",
+                  "stone_resource": "돌 길",
+                  "clay_resource": "점토 길",
+                  "clay_brick_resource": "벽돌 길"
                },
                "doors": {
-                  "material": "Door Material",
-                  "wood_resource": "Wooden Door",
-                  "stone_resource": "Stone Door",
-                  "clay_resource": "Clay Door"
+                  "material": "문 재료",
+                  "wood_resource": "나무 창문",
+                  "stone_resource": "돌 문",
+                  "clay_resource": "점토 문"
                },
                "windows": {
-                  "material": "Window Material",
-                  "wood_resource": "Wooden Window",
-                  "stone_resource": "Stone Window",
-                  "clay_resource": "Clay Window"
+                  "material": "창문 재료",
+                  "wood_resource": "나무 창문",
+                  "stone_resource": "돌 창문",
+                  "clay_resource": "점토 창문"
                }
             },
             "start_building_confirm": {
-               "title": "Really start building?",
+               "title": "정말 건축 할거니?",
                "message": "Once you begin building this structure it cannot be edited. Are you sure you want to build now?",
-               "yes": "Yes, start building!",
-               "no": "Not yet"
+               "yes": "응, 건축을 시작하자!",
+               "no": "아직 아냐"
             },
             "remove_building_confirm": {
-               "title": "Really remove this building",
-               "message": "Are you sure you want to remove this entire building?",
-               "keep_building": "Keep this building",
-               "remove_building": "Remove this building"
+               "title": "이 건축물을 제거 할거니?",
+               "message": "정말 이 건축물을 제거 하기를 원하니?",
+               "keep_building": "유지 할거야",
+               "remove_building": "제거 할거야"
             }
          },
          "zones_mode": {
             "farm": {
-               "choose_crop": "Choose a Crop",
+               "choose_crop": "농작물 선택",
                "fallow_name": "Fallow",
                "fallow_description": "Plant no crop and let the soil renew itself."
             },
@@ -675,14 +675,14 @@
             },
             "pasture": {
                "help": "Shepherds bring animals to this region and tend to their needs here.",
-               "choose_pasture_type": "Choose Pasture Type",
-               "sheep_pasture_name": "Sheep Pasture",
-               "rabbit_pasture_name": "Rabbit Pen",
+               "choose_pasture_type": "농장 타입을 선택",
+               "sheep_pasture_name": "양 목초지",
+               "rabbit_pasture_name": "토끼 사육장",
                "poyo_pasture_name": "Poyo Coop",
                "sheep_pasture_description": "Sheep produce wool and can be a source of meat.",
                "rabbit_pasture_description": "Rabbits can be a source of jerky.",
                "poyo_pasture_description": "Poyos produce eggs, a valuable cooking ingredient.",
-               "num_animals": "Animals:"
+               "num_animals": "동물들:"
             },
             "stockpile": {
                "default_stockpile_name": "[str(self.unit_info.custom_name)]번째 비축고",
@@ -749,7 +749,7 @@
             "workshop_closed": "영업 종료",
             "maintain_option_disabled": "Build a stockpile or place a crate to unlock more crafting options!",
             "craft": "제작!",
-            "craftable_locked": "Unlocked at Level: [str(level)]",
+            "craftable_locked": "레벨에 잠금해제: [str(level)]",
             "workshop_requirement_title": "Workshop",
             "workshop_none_required": "None required!",
             "workshop_required": "Requires a placed ",
@@ -825,20 +825,20 @@
                "002": "decompressing voxels...",
                "003": "synthesizing fauna...",
                "004": "redistubuting redistrubutables...",
-               "005": "terracing terrain...",
-               "006": "stocking piles...",
-               "007": "inflating trees...",
-               "008": "rising sun...",
+               "005": "지형 생성 중...",
+               "006": "자원 저장 중...",
+               "007": "나무를 심는 중...",
+               "008": "해가 떠오르는 중...",
                "009": "구름을 평평하게 만드는 중...",
                "010": "burlying hands...",
-               "011": "bushing berries...",
+               "011": "열매를 심는 중...",
                "012": "confabulating childhood...",
                "013": "resolving determinism...",
                "014": "cubulating companionship...",
                "015": "existentializing dilemmas...",
                "016": "improvising morals...",
                "017": "splining reticulators..",
-               "018": "diversifying gender...",
+               "018": "성별을 다양화 시키는 중...",
                "019": "homogenizing motivation...",
                "020": "deriving history...",
                "021": "버그를 찾는 중...",
@@ -890,9 +890,9 @@
                "minerals_description": "You will need minerals if you plan on building things from stone or metal."
             },
             "terrain_codes": {
-               "water": "Water",
-               "plains_1": "Plains",
-               "plains_2": "Plains",
+               "water": "물",
+               "plains_1": "식물1",
+               "plains_2": "식물2",
                "foothills_1": "Foothills",
                "foothills_2": "Foothills",
                "foothills_3": "Foothills",
@@ -932,7 +932,7 @@
             "gfx_enable_fullscreen": "전체화면 (재시작시 적용)",
             "gfx_msaa": "안티엘리어싱 레벨",
             "gfx_shadows": "그림자 품질",
-            "gfx_max_lights": "Maximum Number of Lights",
+            "gfx_max_lights": "밝기 최대",
             "gfx_drawdistance": "가시거리",
             "gfx_enable_ssao": "앰비언트 어클루젼 활성화",
             "gfx_use_high_quality": "고품질 활성화",
@@ -987,13 +987,13 @@
          },
          "select_game_story": {
             "title": "시작되는 모험",
-            "story_start": "This is the story of ...",
+            "story_start": "이 이야기는  ...",
             "kingdom_section_start": "... a brave band of settlers from ",
             "select_button": "?",
             "kingdom_picker_title": "왕국 선택",
             "biome_section_start": "Seeking new lands and adventure, they set off to ",
             "biome_picker_title": "지형선택",
-            "game_mode_select_start": ", a location that is sure to be ",
+            "game_mode_select_start": ", 이 지형으로 선택 ",
             "game_mode_picker_title": "난이도 선택",
             "game_modes": {
                "normal": {
@@ -1079,7 +1079,7 @@
                }
             },
             "food": {
-               "display_name": "Food",
+               "display_name": "식량",
                "description": "Make sure foods of different variety and quality are available. Cooked foods are more liked than raw foods.",
                "town_description": "How your citizens feel about the town's food situation. Is there enough to eat? Try to obtain a variety of foods!"
             },
@@ -1107,7 +1107,7 @@
                }
             },
             "muscle": {
-               "display_name": "Muscle",
+               "display_name": "근육",
                "description": "This hearthling's brawn.",
                "bullet_points": {
                   "000": "Every 10 muscle increases weapon damage by 1"
@@ -1119,11 +1119,11 @@
                "town_description": "How happy your citizens are overall. Aim for a value of 10 for ultimate happiness!"
             },
             "speed": {
-               "display_name": "Speed",
+               "display_name": "순발력",
                "description": "How fast this hearthling moves."
             },
             "body": {
-               "display_name": "Body",
+               "display_name": "신체력",
                "description": "Competence at physical activities. Hearthlings with a high Body stat will move faster. Influences Muscle, Speed, Stamina."
             },
             "edibles": {
@@ -1132,22 +1132,22 @@
                "town_description": "The gold value of all the food in the town's inventory"
             },
             "mind": {
-               "display_name": "Mind",
+               "display_name": "멘탈력",
                "description": "The ability to think intelligently. A high Mind stat allows a hearthling to exceed in complex mental tasks. Influences Diligence, Curiosity, Inventiveness."
             },
             "curiosity": {
-               "display_name": "Curiosity",
+               "display_name": "호기심",
                "description": "How much this hearthling enjoys new experiences.",
                "bullet_points": {
                   "000": "Improves experience gain when crafting new items"
                }
             },
             "spirit": {
-               "display_name": "Spirit",
+               "display_name": "신속성",
                "description": "Faith in other people. A high Spirit hearthling will easily befriend others and stand strong against enemies. Influences Courage, Willpower, Compassion."
             },
             "safety": {
-               "display_name": "Safety",
+               "display_name": "안정성",
                "description": "Protect your town from raiders and make your citizens feel safe by assigning guards.",
                "town_description": "How your citizens feel about the town's security. Is the town well protected or getting pillaged by goblins?"
             }
@@ -1157,9 +1157,9 @@
             "stone_resource_name": "돌",
             "pelt_resource_name": "Fur Pelt",
             "cloth_resource_name": "Bolt of Cloth",
-            "wood_resource_name": "Wood Log",
+            "wood_resource_name": "나무 줄기",
             "clay_resource_name": "Mound of Clay",
-            "clay_brick_resource_name": "Clay Bricks",
+            "clay_brick_resource_name": "벽돌",
             "thread_resource_name": "Thread",
             "leather_resource_name": "Bolt of Leather",
             "fiber_resource_name": "Bundle of Fiber",
@@ -1171,7 +1171,7 @@
       "population": {
          "ascendancy": {
             "display_name": "어센던시",
-            "quote": "Sheep? Check. Hoe? Check. Swords? Check. Embark!",
+            "quote": "양? 확인. 괭이? 확인. 검? 확인. Embark!",
             "description": "Earnest and hardworking, loyal and well-rounded. Citizens of the Ascendancy chop, build and farm, confident that the known world is theirs to inhabit.",
             "post_selection_description": ", a prosperous and industrious kingdom."
          }
@@ -1319,8 +1319,8 @@
                            "dialog_title": "???"
                         },
                         "accept_offer": {
-                           "choice_000": "Wait! Who are you?",
-                           "choice_001": "Huh.",
+                           "choice_000": "잠깐! 너 누구야?",
+                           "choice_001": "허.",
                            "bulletin_message": {
                               "000": "Fight hard, little town. Fate is meaningless. But were it not, yours would be to rise."
                            },
@@ -1328,8 +1328,8 @@
                            "dialog_title": "???"
                         },
                         "flute_description": {
-                           "choice_000": "Sounds good!",
-                           "choice_001": "No. Thanks.",
+                           "choice_000": "좋아!",
+                           "choice_001": "별로.",
                            "bulletin_message": {
                               "000": "Upon this paper, you shall find the lullabye to sooth the Mountain's soul. Find a stolen flute. Bid your wood-worker pitch it to this melody. Grant it to your bravest sheep-singer, set him at Ogo's great mammoth, and watch self-importance meet it's just reward."
                            },
