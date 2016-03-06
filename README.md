@@ -1,4 +1,7 @@
-# startermod_locale
+startermod_locale
+=======
+해당 저장소는 예제용입니다.
+
 ##업데이트:
 
 The overrides method allows any mod to provide a translation for any other mod.
