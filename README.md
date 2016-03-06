@@ -1,13 +1,16 @@
-# startermod_locale
-##업데이트:
+startermod_locale_ko
+=========
+이 모드는 [Radiant Entertainment](http://www.radiant-entertainment.com/)에서 제작한 [StoneHearth](http://stonehearth.net)의 한글화 모드입니다.
 
+## 업데이트:
 The overrides method allows any mod to provide a translation for any other mod.
 
 ## 주의사항
  - 해당 모드는 한국에 맞게 언어를 재배치하였으며 해당 모드 설치 후 영어로 플레이 시 표기 오류가 생길 수 있습니다. ( 예) Kingdom of [마을이름] -> [마을이름] Kingdom of )
  - manifest.json에서 폰트 로드 시 반드시 폰트를 먼저 오버라이드 한 후에 번역파일을 매치해주세요.
- 
-##정보
+ - 타이틀: 30px, 탭: 10px 감소, h2: 28px, 일반: 18px;
+
+## 정보
 스톤하스 현지화 모드 예제를 사용한 한국어 현지화 모드입니다.
 
 소개 및 사용방법: 모드를 다운로드 하신 후 스톤하스 모드폴더(스팀: C:\Steam\steamapps\common\Stonehearth\mods)에 압축을 주신 후, as a peer to stonehearth.smod and radiant.smod. Make sure the folder is named startermod_locale, not startermod_locale-master.
@@ -18,7 +21,7 @@ The startermod_locale mod adds a pseudolocalization of stonehearth's and rayya c
 
 When you start up Stonehearth with this mod installed, open the settings menu and go to the system tab. You will see that a language named "[!!Ēņģľĭšħ!!]" will be added to the list of languages. Selecting the "[!!Ēņģľĭšħ!!]" language and clicking "OK" will change the game's language.
 
-##작동방식:
+## 작동방식:
 
 1) startermod_locale's manifest.json uses this line:<br>
    ````
@@ -50,7 +53,7 @@ When you start up Stonehearth with this mod installed, open the settings menu an
    These overrides will effective act as if you added new files under stonehearth/locales/ and rayyas_children/locales/
    The files that are pointed to is the en-XA.json files under the translations folder. This is the file that contains all the translated strings.
 
-##노트:
+## 노트:
 
 If you are creating your own content mod that has translatable strings (not a mod that is purely translation), to tell the game that your mod contains locale data, you need to specify a default locale in the mod's manifest.json, ex:
    ````
@@ -65,7 +68,7 @@ If you are creating your own content mod that has translatable strings (not a mo
 
   This tells the game that if the main stonehearth game is running in a language for which your mod doesn't have support, it will know to load the english translation file by default.
 
-##How to translate en.json:
+## How to translate en.json:
 
 Only translate strings that come after a ':'' in the json file. You can more easily view the json on a website such as http://codebeautify.org/jsonviewer
 Do not modify the strings that come on the left side of a ':'

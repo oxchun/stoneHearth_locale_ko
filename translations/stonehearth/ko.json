@@ -82,7 +82,7 @@
             "promotion_title": "사령장",
             "text_1": "귀하는 평소 맡은 일에 충실하고 타인의 모범이 되어 마을 발전에 많은 기여를 하였으므로 [str(date)]부터 [str(job_name)]으로 인사 발령합니다.",
             "choose": "choose a hearthling...",
-            "text_2": "this day of, [str(date)]",
+            "text_2": "[str(date)]",
             "approve": "결제",
             "approved": "승인됨!",
             "denied": "조건이 충족되지 않았습니다!",
@@ -810,15 +810,15 @@
             "craft_queue_full": "주문이 꽉참!",
             "craftable_locked": "Unlocked at Level: [str(level)]",
             "workshop_requirement_title": "작업장",
-            "workshop_none_required": "필요한 게 없음!",
+            "workshop_none_required": "제작 가능!",
             "workshop_required": "설치해야함",
             "level_requirement_title": "요구 레벨",
-            "level_requirement_none": "필요한 게 없음!",
+            "level_requirement_none": "제작 가능!",
             "level_requirement_needed": "[MKY_KEY_1]",
             "level_requirement_level": "[MKY_KEY_2]",
             "too_many_symbol": "많은",
             "requirements_unmet_general": "요구사항이 충족되지 않음!",
-            "queue_anyway": "Queue Order Anyway",
+            "queue_anyway": "작업 대기",
             "recipe_tab": "제작법",
             "orders_tab": "Orders",
             "missing_ingredients": "Missing ingredients: "
@@ -2256,12 +2256,12 @@
             "description": "Remove this ladder."
          },
          "show_workshop": {
-            "display_name": "Show Workshop",
+            "display_name": "작업장 열기",
             "description": "Your crafter uses the workshop to construct useful items for your settlement.",
             "disabled_description": "Your crafter uses the workshop to construct useful items for your settlement. Before you can craft you need to assign a crafter to this workshop."
          },
          "show_workshop_from_crafter": {
-            "display_name": "Show Workshop",
+            "display_name": "작업장 열기",
             "description": "Your crafter uses the workshop to construct useful items for your settlement.",
             "disabled_description": "Your crafter uses the workshop to construct useful items for your settlement. Before you can craft you need to assign a crafter to this workshop."
          },

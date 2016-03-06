@@ -1,21 +1,21 @@
 {
    "info" : {
-      "name" : "Adding languages for Korean(한국어 추가 모드)", 
-      "version" : 130101
+      "name" : "Adding languages for Korean(한국어 추가 모드)",
+      "version" : 140302
    },
    "default_locale": "ko",
    "mixintos" : {
       "stonehearth/locales/supported_languages.json" : "file(added_languages.json)"
    },
-   "overrides": {	  
+   "overrides": {
 	  "stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.ttf" : "file(fonts/YanoljaYacheB.ttf)",
    	  "stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.woff" : "file(fonts/YanoljaYacheB.woff)",
    	  "stonehearth/ui/root/css/fonts/grobold/grobold-webfont.ttf" : "file(fonts/YanoljaYacheB.ttf)",
    	  "stonehearth/ui/root/css/fonts/grobold/grobold-webfont.woff" : "file(fonts/YanoljaYacheB.woff)",
-	  
+
 	  "stonehearth/ui/shell/title/title.html": "file(ui/shell/html/title.html)",
 	  "stonehearth/ui/shell/select_game_story/select_game_story.html": "file(ui/shell/html/select_game_story.html)",
-	  
+
 	  "stonehearth/ui/shell/title/title.less": "file(ui/shell/style/title.less)",
 	  "stonehearth/ui/shell/select_game_story/select_game_story.less": "file(ui/shell/style/select_game_story.less)",
 	  "stonehearth/ui/shell/select_settlement/select_settlement.less": "file(ui/shell/style/select_settlement.less)",
@@ -25,9 +25,10 @@
 	  "stonehearth/ui/shell/embark/shop_palette.less": "file(ui/shell/style/shop_palette.less)",
 	  "stonehearth/ui/shell/analytics_opt/analytics_opt.less": "file(ui/shell/style/analytics_opt.less)",
 	  "stonehearth/ui/shell/loading_screen/loading_screen.less": "file(ui/shell/style/loading_screen.less)",
-	  
+	  "stonehearth/ui/shell/settings/settings.less": "file(ui/shell/style/settings.less)",
+
 	  "stonehearth/ui/game/promotion_tree/promotion_tree.html": "file(ui/game/html/promotion_tree.html)",
-	  
+
 	  "stonehearth/ui/game/character_sheets/citizen_character_sheet/citizen_character_sheet.less": "file(ui/game/style/citizen_character_sheet.less)",
 	  "stonehearth/ui/game/character_sheets/pet_character_sheet/pet_character_sheet.less": "file(ui/game/style/pet_character_sheet.less)",
 	  "stonehearth/ui/game/citizens/citizens.less": "file(ui/game/style/citizens.less)",
@@ -62,7 +63,7 @@
 	  "stonehearth/ui/game/town/town.less": "file(ui/game/style/town.less)",
 	  "stonehearth/ui/game/version/version.less": "file(ui/game/style/version.less)",
 	  "stonehearth/ui/game/unit_frame/unit_frame.less": "file(ui/game/style/unit_frame.less)",
-	  
+
       "stonehearth/locales/ko.json": "file(translations/stonehearth/ko.json)",
 	  "rayyas_children/locales/ko.json": "file(translations/rayyas_children/ko.json)"
    }
