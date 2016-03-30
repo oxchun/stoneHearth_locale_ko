@@ -7,6 +7,10 @@
       height: 600px;
       //height: 850px;
       position: relative;
+	  
+	  .title {
+		font-size: 30px;
+	  }
    }
 
    .tabPage {
@@ -107,6 +111,7 @@
 
       .row.indented {
          padding-left: 20px;
+         font-size: 20px;
 
          div:nth-of-type(2) {
             width: 280px;
@@ -117,6 +122,30 @@
          height: 40px;
          width: 40px;
          background-image: url(images/net_worth_icon.png);
+         background-position: center center;
+         background-repeat: no-repeat;
+      }
+	  
+      #buildingIcon {
+         height: 30px;
+         width: 40px;
+         background-image: url(images/buildings_icon.png);
+         background-position: center center;
+         background-repeat: no-repeat;
+      }
+
+      #inventoryIcon {
+         height: 30px;
+         width: 40px;
+         background-image: url(images/inventory_icon.png);
+         background-position: center center;
+         background-repeat: no-repeat;
+      }
+
+      #agricultureIcon {
+         height: 30px;
+         width: 40px;
+         background-image: url(images/agriculture_icon.png);
          background-position: center center;
          background-repeat: no-repeat;
       }
@@ -131,7 +160,7 @@
 
       #happinessIcon {
          width: 40px;
-         height: 30px;
+         height: 10px;
          background-repeat: no-repeat;
          background-position: center center;
          background-image: url(/stonehearth/ui/game/widgets/hud_score/images/happiness_icon.png);
@@ -140,7 +169,7 @@
 
    #tabs {
       position: absolute;
-      bottom: -56px;
+      bottom: -46px;
    }
 
    .logTitle { 
@@ -175,9 +204,40 @@
       position: relative;
       width: 740px;
    }
- 
+
+   #inventoryTab {
+      #inventoryPaletteContainer {
+         height: 510px;
+         overflow-y: scroll;
+      }
+      #inventoryCount{
+         color: #fedb17;
+         font-family: @controlFontFamily;
+         font-size: 22px;
+         display: block;
+         padding-left: 2px;
+         padding-top: 8px;
+         display: inline-block;
+
+         #countNumbers {
+            font-family: @controlFontFamily;
+            font-size: 22px;
+         }
+
+         #countNumbers.notFull {
+            color: #fedb17;
+         }
+
+         #countNumbers.fullWarning {
+            color: red;
+         }
+      }
+   }
+   
    #journalsTab {
       .book {
+		 font-size: 18px;
+		 
          #defaultMessage {
             position: absolute;
             margin-top: 40px;
