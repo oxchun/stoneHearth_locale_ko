@@ -3655,7 +3655,7 @@
             }
          },
          "sheep": {
-            "display_name": "A sheep",
+            "display_name": "양",
             "description": "So fluffy!",
             "unripe_description": "This sheep is still quite naked.",
             "sheep_young": {
@@ -4338,7 +4338,7 @@
       "food": {
          "berries": {
             "berry_basket": {
-               "display_name": "Basket of Berries",
+               "display_name": "산딸기 바구니",
                "description": "Creme of the caveman diet."
             },
             "berry_serving": {
@@ -4356,7 +4356,7 @@
                "description": "Heavenly nutritious."
             },
             "corn_basket": {
-               "display_name": "Basket of Corn",
+               "display_name": "옥수수 바구니",
                "description": "Sweet and crunchy."
             },
             "corn_serving": {
@@ -4370,8 +4370,8 @@
          },
          "meat_stew": {
             "meat_stew": {
-               "display_name": "Savory Meat Stew",
-               "description": "Warm and delicious"
+               "display_name": "고소한 고기 스프",
+               "description": "따뜻하고 맛있어"
             },
             "meat_stew_serving": {
                "display_name": "Bowl of Savory Meat Stew"
@@ -4379,8 +4379,8 @@
          },
          "peasant_bread": {
             "peasant_bread": {
-               "display_name": "Peasant Bread",
-               "description": "A crusty, basic bread."
+               "display_name": "투박한 빵",
+               "description": "딱딱한 껍질이 있는, 일반적인 빵이다."
             },
             "peasant_bread_serving": {
                "display_name": "Slice of Peasant Bread"
@@ -4388,8 +4388,8 @@
          },
          "pumpkin": {
             "pumpkin_basket": {
-               "display_name": "Pumpkin Basket",
-               "description": "Ready for eating"
+               "display_name": "호박 바구니",
+               "description": "먹을 준비가 되었어"
             },
             "pumpkin_serving": {
                "display_name": "Pumpkin Mush",
@@ -4401,8 +4401,8 @@
          },
          "veggie_stew": {
             "veggie_stew": {
-               "display_name": "Vegetable Stew",
-               "description": "Warm and delicious"
+               "display_name": "향긋한 야채 스프",
+               "description": "따뜻하고 맛있어"
             },
             "veggie_stew_serving": {
                "display_name": "Bowl of Veggie Stew",
@@ -4410,24 +4410,24 @@
             }
          },
          "wheat_bale": {
-            "display_name": "Bale of Wheat",
-            "description": "Ready for use"
+            "display_name": "밀 더미",
+            "description": "사용할 준비가 되었어"
          },
          "egg": {
-            "display_name": "An Egg",
+            "display_name": "계란",
             "description": "An eggcellent ingredient for cooking."
          },
          "corn_bread": {
             "corn_bread": {
-               "display_name": "Corn Bread",
-               "description": "Toasty and golden brown."
+               "display_name": "옥수수 빵",
+               "description": "노릇노릇한게 맛있어"
             },
             "corn_bread_serving": {
                "display_name": "Piece of Corn Bread"
             }
          },
          "poyo_meat": {
-            "display_name": "Raw Poyo Meat",
+            "display_name": "생 닭고기",
             "description": "I hear it takes like poyo."
          },
          "poyo_pot_pie": {
@@ -4442,7 +4442,7 @@
          },
          "omelette": {
             "omelette": {
-               "display_name": "Omelette",
+               "display_name": "오믈렛",
                "description": "Delicious egg wrapped meat and veggies"
             },
             "omelette_serving": {
@@ -4452,7 +4452,7 @@
          },
          "roast_poyo": {
             "roast_poyo": {
-               "display_name": "Roast Poyo",
+               "display_name": "직화구이 통닭",
                "description": "Nice and juicy."
             },
             "roast_poyo_serving": {
@@ -4461,36 +4461,36 @@
          },
          "fried_eggs": {
             "fried_eggs": {
-               "display_name": "Fried Eggs",
-               "description": "Fried and delicious"
+               "display_name": "계란프라이",
+               "description": "맛있는 프라이야"
             },
             "fried_eggs_serving": {
                "display_name": "Serving of Fried Eggs"
             }
          },
          "sheep_feed": {
-            "display_name": "Sheep Feed",
+            "display_name": "양 사료",
             "description": "Give to sheep for a supplement to grazing.",
             "sheep_feed_ground": {
-               "display_name": "Sheep Feed",
+               "display_name": "양 사료",
                "description": "Food for sheep"
             }
          },
          "poyo_feed": {
             "poyo_feed": {
-               "display_name": "Poyo Feed",
+               "display_name": "닭 사료",
                "description": "For feeding poyos."
             },
             "poyo_feed_ground": {
-               "display_name": "Poyo Feed",
+               "display_name": "닭 사료",
                "description": "Poyos love to eat this stuff."
             }
          },
          "rabbit_feed": {
-            "display_name": "Rabbit Feed",
+            "display_name": "토끼 사료",
             "description": "For rabbits",
             "rabbit_feed_ground": {
-               "display_name": "Rabbit Feed",
+               "display_name": "토끼 사료",
                "description": "Food for rabbits"
             }
          },
@@ -4525,7 +4525,7 @@
             }
          },
          "corn_meal": {
-            "display_name": "Corn Meal",
+            "display_name": "옥수수 곡식",
             "description": "Corn ground into a fine powder"
          },
          "flat_bread": {
@@ -5035,7 +5035,7 @@
          },
          "carrot": {
             "carrot_basket": {
-               "display_name": "Basket of Carrots",
+               "display_name": "당근 바구니",
                "description": "Lined up in neat rows."
             },
             "carrot_serving": {
@@ -5067,7 +5067,7 @@
          },
          "turnip": {
             "turnip_basket": {
-               "display_name": "Basket of Turnips",
+               "display_name": "순무 바구니",
                "description": "Juicy and exciting!"
             },
             "turnip_serving": {
@@ -5445,7 +5445,7 @@
                "description": "It radiates a mysterious aura"
             },
             "large_oak_tree": {
-               "display_name": "Large Oak Tree",
+               "display_name": "거대한 참나무",
                "description": "100's of years old. Too bad..."
             },
             "medium_oak_tree": {
@@ -5453,13 +5453,13 @@
                "description": "Sturdy, in the prime of life."
             },
             "small_oak_tree": {
-               "display_name": "Small Oak Tree",
+               "display_name": "작은 참나무",
                "description": "Slightly larger than a sapling."
             },
             "sapling_oak_tree": {
                "description": "Plant it in the earth and watch it grow.",
                "sapling_oak_tree_ghost": {
-                  "display_name": "Oak Tree Sapling",
+                  "display_name": "참나무 묘목",
                   "description": "Plant it in the earth and watch it grow."
                },
                "sapling_oak_tree_iconic": {
@@ -6164,7 +6164,7 @@
                "description": "A pile of logs stacked together. An excellent way to store lots of wood for later use."
             },
             "wheat_pile_recipe": {
-               "recipe_name": "Large Wheat Bundle",
+               "recipe_name": "Laghe Wheat Bundle",
                "description": "For when normal wheat bales are just too small. Good for efficiently storing a large amount of wheat"
             },
             "blue_market_stall_recipe": {
@@ -6180,7 +6180,7 @@
             "description": "The cook makes delicious, hearty meals from base vegetables and meats.",
             "requirements": "A level 2 Farmer and a Stoneware Spoon, crafted by the Mason.",
             "workshop": {
-               "name": "Stone Cauldron",
+               "name": "석재 가마솥",
                "long_description": "Humongous, heavy pot, suitable for cooking up a feast at a time!"
             },
             "level_6_data": {
@@ -6223,7 +6223,7 @@
          },
          "cook_workbench": {
             "cook_workbench_ghost": {
-               "display_name": "Stone Cauldron",
+               "display_name": "석재 가마솥",
                "description": "Used by the Cook for delicious recipes."
             }
          },
@@ -6234,23 +6234,23 @@
             },
             "meat_stew_recipe": {
                "description": "Hearty, satisfying, and perfect to ease the passing of a cold night.",
-               "recipe_name": "Savory Meat Stew",
+               "recipe_name": "고소한 고기 스프",
                "flavor": "Before you ask, it's an assortment of meats."
             },
             "peasant_bread_recipe": {
                "description": "A crusty, basic bread.",
-               "recipe_name": "Peasant Bread"
+               "recipe_name": "투박한 빵"
             },
             "food_name": "Food",
             "ingredients_name": "Ingredients",
             "veggie_stew_recipe": {
                "description": "A warm, savory broth, fortified with braised pumpkin!",
-               "recipe_name": "Tasty Vegetable Stew",
+               "recipe_name": "향긋한 야채 스프",
                "flavor": "Afterwards, you feel satisfied, but not heavy."
             },
             "corn_bread_recipe": {
                "description": "A bread made from cornmeal.",
-               "recipe_name": "Corn Bread",
+               "recipe_name": "옥수수 빵",
                "flavor": "Like Ma used to make."
             },
             "poyo_pot_pie_recipe": {
@@ -6260,50 +6260,50 @@
             },
             "omelette_recipe": {
                "description": "Veggies and meat wrapped in egg.",
-               "recipe_name": "Omelette",
+               "recipe_name": "오믈렛",
                "flavor": "Part of a hearty breakfast"
             },
             "roast_poyo_recipe": {
                "description": "Slow roasted poyo meat",
-               "recipe_name": "Roast Poyo",
+               "recipe_name": "직화구이 통닭",
                "flavor": "Put 'nother poyo on the barby."
             },
             "fried_eggs_recipe": {
                "description": "Eggs fried to order.",
-               "recipe_name": "Fried Eggs",
+               "recipe_name": "계란프라이",
                "flavor": "Do you like yours sunnyside up?"
             },
-            "animal_feed_name": "Animal Feed",
+            "animal_feed_name": "동물 사료",
             "sheep_feed_recipe": {
                "description": "A supplement for a healthy sheep diet",
-               "recipe_name": "Sheep Feed"
+               "recipe_name": "양 사료"
             },
             "poyo_feed_recipe": {
                "description": "For feeding one's poyos",
-               "recipe_name": "Poyo Feed",
+               "recipe_name": "닭 사료",
                "flavor": "Cluck cluck!"
             },
             "rabbit_feed_recipe": {
                "description": "Food for rabbits",
-               "recipe_name": "Rabbit Feed"
+               "recipe_name": "토끼 사료"
             },
             "workbenches_name": "Workbenches",
             "cook_workbench_recipe": {
                "description": "Use to cook nutritions soups and stews.",
-               "recipe_name": "Stone Cauldron",
+               "recipe_name": "석재 가마솥",
                "flavor": "Stone, to keep the food hot for a long time."
             },
             "cook_mill_recipe": {
                "description": "For grinding grains into flour",
-               "recipe_name": "Stone Mill Grinder"
+               "recipe_name": "맷돌"
             },
             "cook_oven_recipe": {
                "description": "Great for roasting",
-               "recipe_name": "Stone Oven"
+               "recipe_name": "석재 오븐"
             },
             "corn_meal_recipe": {
                "description": "Corn ground into a fine powder",
-               "recipe_name": "Corn Meal"
+               "recipe_name": "옥수수 곡식"
             },
             "decoration_name": "Decorations",
             "roast_mutton_recipe": {
@@ -6313,7 +6313,7 @@
          },
          "cook_mill": {
             "cook_mill_ghost": {
-               "display_name": "Stone Mill Grinder",
+               "display_name": "맷돌",
                "description": "Used by the cook to grind grains into flour."
             }
          },
